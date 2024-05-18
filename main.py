@@ -1,5 +1,6 @@
 import speech_recognition as sr
-
+import pyaudio
+import pywhatkit
 
 def get_audio():
     recognizer = sr.Recognizer()
@@ -12,4 +13,9 @@ def get_audio():
     print(f"You said: {text}")
     return text
 
-get_audio()
+text = get_audio()
+
+if "youtube" in text.lower():
+    pywhatkit.playonyt(text)
+else:
+    pywhatkit.search(text)
