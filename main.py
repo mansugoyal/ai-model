@@ -5,6 +5,7 @@ import pyautogui
 from gtts import gTTS
 from playsound import playsound
 
+
 def speech(text):
     print(text)
     language = "en"
@@ -36,7 +37,6 @@ elif "info" in text.lower():
         print("Attempting to fetch info...")
         info = pywhatkit.info(text, lines=5)
         print("Info fetched successfully.")
-        print(info)
         speech(info)
     except Exception as e:
         print(f"An error occurred: {e}")
