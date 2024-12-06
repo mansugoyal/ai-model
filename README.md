@@ -3,9 +3,8 @@ AI Model
 A custom artificial intelligence model built to demonstrate key concepts in AI and machine learning. This project provides a foundational structure for training, evaluating, and deploying AI models.
 Features
 
-    Simple and modular architecture
-    Example code for AI model creation and usage
-    [Add specific features unique to your project]
+Simple and modular architecture
+Example code for AI model creation and usage
 
 Installation
 
